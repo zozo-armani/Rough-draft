@@ -1,0 +1,154 @@
+*{
+    font-size: 1em;
+     font-family: 'Montserrat', sans-serif;
+     padding: 5px;
+     box-sizing: border-box;
+ }
+ 
+ .button{
+     float: right;
+ }
+ 
+ .paragraph-and-button{
+     width: 100%;
+     /* height: 100%; */
+ }
+ .imgg {
+     width: 10em;
+     height: 8em;
+ }
+ .container{
+     background-color: #ffffff;
+     padding: 5px 20px;
+     border: 2px solid #3d3b3b15;
+     height: 100%;
+     width: 100%;
+     min-width: 386px !important;
+ }
+ 
+ .child-div{
+     background-color: #6DA8BA;
+     padding: 5px;
+     margin-top: 20px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 25vh;
+ }
+ .child-div:hover{
+ border: 1px solid #e7dbdb;
+ border-radius: 5px;
+ }
+ button:hover{
+     border: 1px solid white;
+     border-radius: 4px;
+     text-decoration: underline;
+ }
+ img:hover{
+     border: 1px solid #6DA8BA;
+     border-radius: 10px;
+     padding: 0;
+ }
+ div :nth-last-of-type(3){
+     margin-top: 0;
+ }
+ .paragraph{
+     width: 60%;
+     float: inline-end;
+ }
+ .trade{
+ background-color: #1E4B74;
+ color:#FFFFFF;
+ ;
+ }
+ 
+ .view{
+ background-color: #FFFFFF;
+ color:#1E4B74;
+ }
+ button{
+     width: 80px;
+     border-bottom: none;
+     border-radius: 5px;
+     margin-left: 30px;
+     background: transparent;
+     cursor: grab;
+ }
+ p{
+     text-align: left;
+     color: #ffffff;
+     float: left;
+ }
+ 
+ .wish{
+ 
+     color: #1E4B74;
+     height: 30px;
+     padding: 5px;
+     margin: 0;
+     display: flex;
+     align-items: center;
+ }
+ 
+  /*Responsiveness*/
+ @media screen and (max-width: 989px) {
+     .paragraph{
+         width: 95%;
+         height: 65% !important;
+     }
+     .text{
+         height: inherit;
+         overflow: hidden;
+         text-overflow: ellipsis;
+     }
+     .paragraph-and-button{
+         height: 100%;
+     }
+ 
+ }
+
+ @media screen and (min-width: 386px) and (max-width: 504px) {
+     button{
+         width: 70px !important;
+     }
+     .imgg {
+         width:100%m;
+         height: 100%;
+     }
+     .paragraph-and-button{
+         height: auto;
+     }
+
+     .container {
+         background-color: #fdfbfb;
+         border: 2px solid #3d3b3b15;
+         height: 100vh;
+         width: 100%;
+         font-size: 0.6em;
+         flex-direction: row;
+         margin: auto;
+         border-radius: 25px;
+     }
+     
+     .paragraph {
+         display: block;
+         font-size: 1em;
+         flex-shrink: 2;
+     }
+     
+     .child-div {
+         height: 200px;
+         width: 100%;
+         border-radius: 20px;
+     }
+     button{
+         height: 25px;
+         width: 60px;
+         font-size: 0.8em;
+         display: inline;
+     }
+     .button{
+         display: flex;
+         justify-content: space-between;
+     }
+ }

@@ -1,0 +1,419 @@
+*{
+   font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.button{
+    float: right;
+}
+
+.pandb{
+    width: 100%;
+    /* height: 100%; */
+}
+.imgg {
+    width: 10em;
+    height: 8em;
+}
+.container{
+    background-color: #ffffff;
+    padding: 5px 20px;
+    border: 2px solid #3d3b3b15;
+    height: 100%;
+    width: 100%;
+    min-width: 386px !important;
+}
+
+.child-div{
+    background-color: #6DA8BA;
+    padding: 5px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25vh;
+}
+.child-div:hover{
+border: 1px solid #e7dbdb;
+border-radius: 5px;
+}
+button:hover{
+    border: 1px solid white;
+    border-radius: 4px;
+    text-decoration: underline;
+}
+img:hover{
+    border: 1px solid #6DA8BA;
+    border-radius: 10px;
+    padding: 0;
+}
+div :nth-last-of-type(3){
+    margin-top: 0;
+}
+.paragraph{
+    width: 60%;
+    float: inline-end;
+}
+.trade{
+background-color: #1E4B74;
+color:#FFFFFF;
+;
+}
+
+.view{
+background-color: #FFFFFF;
+color:#1E4B74;
+}
+button{
+    width: 80px;
+    border-bottom: none;
+    border-radius: 5px;
+    margin-left: 30px;
+    background: transparent;
+    cursor: grab;
+}
+p{
+    text-align: left;
+    color: white;
+    float: left;
+}
+
+.wish{
+
+    color: #1E4B74;
+    height: 30px;
+    padding: 5px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 989px) {
+    .paragraph{
+        width: 95%;
+        height: 65% !important;
+    }
+    .pp{
+        height: inherit;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        
+    }
+    .pandb{
+        height: 100%;
+    }
+
+}
+@media screen and (min-width: 386px) and (max-width: 504px) {
+    button{
+        width: 70px !important;
+    }
+    .imgg {
+        width:100%m;
+        height: 100%;
+    }
+    .pandb{
+        height: auto;
+    }
+/*  */
+    .container {
+        background-color: #fdfbfb;
+        border: 2px solid #3d3b3b15;
+        height: 100vh;
+        width: 100%;
+        font-size: 0.6em;
+        /* /display: flex; */
+        flex-direction: row;
+        margin: auto;
+        border-radius: 25px;
+    }
+    
+    .paragraph {
+        display: block;
+        /* max-width: 70%; */
+        font-size: 1em;
+        flex-shrink: 2;
+    }
+    
+    .child-div {
+        height: 200px;
+        width: 100%;
+        border-radius: 20px;
+    }
+    button{
+        height: 25px;
+        width: 60px;
+        font-size: 0.8em;
+        display: inline;
+    }
+    .button{
+        display: flex;
+        justify-content: space-between;
+    }
+    .image{
+        /* flex: 1 1 200px; */
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+   font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #ffffff;
+    padding: 5px 20px;
+    border: 2px solid #3d3b3b15;
+    height: 100%;
+    width: 100%;
+}
+
+.child-div{
+    background-color: #6DA8BA;
+    padding: 5px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25vh;
+}
+.child-div:hover{
+border: 1px solid #e7dbdb;
+border-radius: 5px;
+}
+
+button:hover{
+    border: 1px solid white;
+    border-radius: 4px;
+    text-decoration: underline;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+img:hover{
+    border: 1px solid #6DA8BA;
+    border-radius: 10px;
+    padding: 0;
+}
+div :nth-last-of-type(3){
+    margin-top: 0;
+}
+.paragraph{
+    width: 55%;
+    float: inline-end;
+}
+.trade{
+background-color: #1E4B74;
+color:#FFFFFF;
+;
+}
+
+.view{
+background-color: #FFFFFF;
+color:#1E4B74;
+}
+button{
+    width: 80px;
+    border-bottom: none;
+    border-radius: 5px;
+    margin-left: 30px;
+    background: transparent;
+    cursor: grab;
+}
+p{
+    text-align: left;
+    color: white;
+    float: left;
+}
+
+.wish{
+
+    color: #1E4B74;
+    height: 30px;
+    padding: 5px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width:500px) and (max-width:1000px) {
+    .container {
+        background-color: #fdfbfb;
+        border: 2px solid #3d3b3b15;
+        height: 100vh;
+        width: 100%;
+        font-size: 0.6em;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        border-radius: 25px;
+    }
+    
+    .paragraph {
+        display: block;
+        max-width: 70%;
+        font-size: 1em;
+        flex-shrink: 2;
+    }
+    
+    .child-div {
+        height: 200px;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    button{
+        height: 25px;
+        width: 60px;
+        font-size: 0.8em;
+        display: inline;
+    }
+    /.button{
+        display: flex;
+        justify-content: space-between;
+    }*/
+    
+
+@media only screen and (min-width:300px) and (max-width:499px) {
+    
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="wishlist.css">
+    <title>Eazy Swap</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="wish">
+            <h3>Wishlist</h3>
+        </div>
+        <div class="child-div">
+            <div class="image">
+                <img src="sunglasses.png" alt="sunglasses">
+            </div>
+            <div class="paragraph">
+                <p>This is a KAMBOO designer eyewear. Only been used for a month.</p>
+            </div>
+            <div class="button">
+                <button class="view">View</button>
+                <button class="trade">Trade</button>
+            </div>
+        </div>
+
+        <div class="child-div">
+            <div>
+                <img src="iPhone.png" alt="iphone X and a pair of airpods">
+            </div>
+            <div class="paragraph">
+                <p>This is an iPhone X, grey colour, 256gb, only been used for about two years. Receipt available at
+                    your
+                    request.</p>
+            </div>
+            <div class="button">
+                <button class="view">View</button>
+                <button class="trade">Trade</button>
+            </div>
+        </div>
+
+        <div class="child-div">
+            <div>
+                <img src="flower vase.png" alt="mersha flower vase">
+            </div>
+            <div class="paragraph">
+                <p>This ia a flower vase sculpted by MERSHA clay pot, painted with white. Bought this vase about
+                    three years ago. Receipt available at your request.</p>
+            </div>
+            <div class="button">
+                <button class="view">View</button>
+                <button class="trade">Trade</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
